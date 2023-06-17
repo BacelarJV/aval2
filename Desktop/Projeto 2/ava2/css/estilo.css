@@ -1,0 +1,197 @@
+html {
+  min-width: 1000px;
+  font-family: sans-serif;
+  background-color: #f8f6f7;
+}
+
+.site-largura {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 1000px;
+  z-index: 1;
+  font-size: 90%;
+  background: #f8f6f7;
+  font-family: sans-serif;
+  padding: 0.3em;
+}
+
+.menu-topo {
+  display: flex;
+}
+
+.menu-topo-parte {
+  flex: 1;
+}
+
+.menu-topo a {
+  margin: 0 3%;
+}
+
+.texto-direita {
+  margin-top: 10px;
+  text-align: right;
+  padding: 5px;
+}
+.n1 {
+  color: #f35926;
+  font-size: 37px;
+
+  font-weight: bold;
+}
+.n2 {
+  color: #fcb929;
+  font-size: 37px;
+
+  font-weight: bold;
+}
+.n3 {
+  color: #00b049;
+  font-size: 37px;
+
+  font-weight: bold;
+}
+.viagens {
+  font-size: 15px;
+  display: inline;
+  margin-top: 17.5px;
+  font-weight: bold;
+}
+.alinhamento {
+  display: flex;
+}
+header {
+  background-image: url(../img/barcos.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  min-width: 1000px;
+}
+#pesquisa {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 10px;
+}
+#botao > button {
+  background: #ea3d35;
+  text-align: center;
+  border: 1px solid #ea3d35;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+}
+#retangulo-branco {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 975px;
+  height: 130px;
+}
+h1 {
+  margin-left: 1px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.caixas {
+  width: 150px;
+}
+.voos-desconto {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 1rem;
+  margin-top: 30px;
+}
+.box {
+  row-gap: 20px;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: space-around;
+}
+.caixa-promocao {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.rio {
+  background-image: url("../img/rio.webp");
+  background-size: cover;
+}
+.bonito {
+  background-image: url("../img/bonito.webp");
+  background-size: cover;
+}
+.sp {
+  background-image: url("../img/sao-paulo.webp");
+  background-size: cover;
+}
+.foz {
+  background-image: url("../img/foz.webp");
+  background-size: cover;
+}
+.maceio {
+  background-image: url("../img/maceio.webp");
+  background-size: cover;
+}
+.salvador {
+  background-image: url("../img/salvador.webp");
+  background-size: cover;
+}
+.fortaleza {
+  background-image: url("../img/fortaleza.webp");
+  background-size: cover;
+}
+.bh {
+  background-image: url("../img/belo-horizonte.webp");
+  background-size: cover;
+}
+.nomes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+}
+.valor {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.ver-mais {
+  border: none;
+  border-radius: 25px;
+  padding: 8px;
+  margin-left: 32px;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 25px;
+  align-items: center;
+  font-size: 15px;
+  width: 140px;
+  height: 33px;
+}
+.voos {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -750px;
+}
